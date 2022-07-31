@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Foods</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 90vh;
+            width: 100%;
+            background-image: url(images/pexels-ella-olsson-1640777.jpg);
+            background-position: center;
+            background-size: cover;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo{
+            width: 130px;
+            border-radius: 10px;
+        }
+        .head{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .company{
+            font-size: 20px;
+            margin-left: 30px;
+            color: #ea1c0e;
+            letter-spacing: 2px;
+        }
+        .nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .nav li{
+            list-style: none;
+        }
+        .nav li a{
+            text-decoration: none;
+            color: darkgrey;
+            font-weight: 700;
+        }
+        .content{
+            display: flex;
+            justify-content: space-around;
+            margin: 30px;
+            padding: 20px;
+        }
+        .about-content{
+            width: 50%;
+            margin-right: 70px;
+        }
+        button{
+            width: 90px;
+            margin-left: 80px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        button a{
+            text-decoration: none;
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .contact-us h4{
+            font-weight: 400;
+            line-height: 2;
+        }
+        .contact-us h2{
+            color: darkgrey;
+        }
+        {
+            .about-content
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <div>
+                    <img src="images/logo.jpg" class="logo">
+                </div>
+                <div class="company">
+                    <h2>Harish Foods</h2>
+                </div>
+            </div>
+        </header>
+        <div class="nav">
+            <hr>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li style="font-weight: 800;">|</li>
+                <li><a href="#">About</a></li>
+                <li style="font-weight: 800;">|</li>
+                <li><a href="#">Contact</a></li>
+                <li style="font-weight: 800;">|</li>
+                <input type="text" placeholder="Search" style="border: 1px solid black;">
+            </ul>
+            <hr>
+        </div>
+        <div class="content">
+            <div class="video">
+                <video width="400" controls>
+                    <source src="images/harish_food_files/Brand Promo Video _ Food TV Commercial _ Brand Video _ Brand Video Teaser By Ministry of Marketing.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="about-content">
+                <p><b>HarishBranded Packaged Foods business is one of the fastest growing foods businesses in India, driven by the market standing and consumer franchise of its popular brands - Aashirvaad, Bingo! Sunfeast, Fabelle, Sunbean, Yippee! Kitchens of India, B Natural, ITC Master Chef, Farmland, mint-o, Candyman and GumOn. The Foods business is today represented in multiple categories in the market - Staples, Spices, Biscuits, Confectionery & Gums, Snacks, Noodles & Pasta, Beverages, Dairy, Ready to Eat Meals, Chocolate, Coffee and Frozen Foods.</p>
+                <br><br>
+                </b>     <audio controls>
+                    <source src="images/video.mp4" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="sign">
+                <form class="sign-up">
+                    <fieldset style="width: 350px;">
+                        <legend style="color: darkgray;">Sign Up</legend><br>
+                        *User name: <input type="text" placeholder="username" required><br><br>
+                        *Password: <input type="password" placeholder="password" required style="margin-left: 5px;"><br>
+                        <button><a href="second.html">Register</a></button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="contact-us">
+                <h2>Contact us</h2>
+                <h4>
+                    1st Floor, BR complex,<br>
+                    Koretipad, Guntur, Andhra Pradesh 600014<br>
+                    mail id: <a href="#" style="color: #3a0ca3;">harishfoods@company.org</a><br>
+                    Phone no: <a href="#" style="color: #3a0ca3;">(+91) (12345 12345)</a>
+                </h4>    
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9753326898526!2d79.13019611399498!3d12.909306919736908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad38dd7dda6345%3A0xd9c89664b3d05faf!2sHarish%20Food%20Zone!5e0!3m2!1sen!2sin!4v1659289479605!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </footer>
+    </div>
+</body>
+</html>
